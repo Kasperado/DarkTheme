@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  --backgroundColor: whitesmoke;
+  --textColor: #242424;
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
+}
+
+.darkmode {
+  --backgroundColor: #242424;
+  --textColor: whitesmoke;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+}
+
+button {
+  border-radius: 8px;
+  border: 2px solid var(--textColor);
+  padding: 0.6em 1.2em;
+  color: var(--textColor);
+  background-color: var(--backgroundColor);
+  cursor: pointer;
+}
